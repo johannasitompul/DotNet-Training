@@ -1,0 +1,47 @@
+> initialising a local repo
+git init
+
+> cheking status
+git status
+
+> add file to local repo for tracking
+git add <filename>
+git add -A
+
+> to commit to local repo
+git commit -m "First Commit"
+
+> to set identity
+git config --global user.email
+
+> link to remote repo
+git remote add origin https://github.com/johannasitompul/DotNet-Training.git
+
+>> https://github.com/gayat19/Dotnet17Jan2022.git
+
+> check connection
+git remote --v
+
+> push into remote repo
+git push origin master
+
+> pulling from remote
+- create new folder
+git clone <remote repo>
+git pull origin master
+
+> create new branch
+git branch <branch name>
+
+> change to branch
+git checkout <branch name>
+
+> list branches
+git branch
+
+> merge branch with master
+- be in master
+git merge <branch name>
+
+> remove branch
+git branch -d cc
