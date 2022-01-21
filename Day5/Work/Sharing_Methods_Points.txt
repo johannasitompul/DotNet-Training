@@ -1,0 +1,34 @@
+METHODS
+
+- declared in a class, record, struct
+
+method signature:
+-----------------
+- access level: public, private, ..
+- return value: void
+
+
+method invocation:
+------------------
+- instance & static
+
+
+method-to-method relationships:
+-------------------------------
+- inheritance
+- overriding
+
+parent(base)		child(derived)
+--			--
+GetName()		GetName()
+DisplayName()		DisplayName()
+  "i am a parent"	  "i am a child"
+
+- overloading
+
+
+passing parameters:
+-------------------
+- value
+- reference
+- optional/default value
