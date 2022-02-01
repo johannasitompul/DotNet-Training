@@ -1,0 +1,12 @@
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\bin\Debug\ExerciseADOApplication.exe.config
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\bin\Debug\ExerciseADOApplication.exe
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\bin\Debug\ExerciseADOApplication.pdb
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\bin\Debug\EmpDALLibrary.dll
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\bin\Debug\EmployeeModelsLibrary.dll
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\bin\Debug\EmpDALLibrary.pdb
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\bin\Debug\EmployeeModelsLibrary.pdb
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\obj\Debug\ExerciseADOApplication.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\obj\Debug\ExerciseADOApplication.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\obj\Debug\ExerciseADOApplication.csproj.CopyComplete
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\obj\Debug\ExerciseADOApplication.exe
+C:\Users\johan\source\repos\ExerciseADOSolution\ExerciseADOApplication\obj\Debug\ExerciseADOApplication.pdb

@@ -1,0 +1,9 @@
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\bin\Debug\EmpDALLibrary.dll
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\bin\Debug\EmpDALLibrary.pdb
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\bin\Debug\EmployeeModelsLibrary.dll
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\bin\Debug\EmployeeModelsLibrary.pdb
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\obj\Debug\EmpDALLibrary.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\obj\Debug\EmpDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\obj\Debug\EmpDALLibrary.csproj.CopyComplete
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\obj\Debug\EmpDALLibrary.dll
+C:\Users\johan\source\repos\ExerciseADOSolution\EmpDALLibrary\obj\Debug\EmpDALLibrary.pdb

@@ -1,0 +1,6 @@
+C:\Users\johan\source\repos\ExerciseADOSolution\EmployeeModelsLibrary\bin\Debug\EmployeeModelsLibrary.dll
+C:\Users\johan\source\repos\ExerciseADOSolution\EmployeeModelsLibrary\bin\Debug\EmployeeModelsLibrary.pdb
+C:\Users\johan\source\repos\ExerciseADOSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\ExerciseADOSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\ExerciseADOSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.dll
+C:\Users\johan\source\repos\ExerciseADOSolution\EmployeeModelsLibrary\obj\Debug\EmployeeModelsLibrary.pdb
