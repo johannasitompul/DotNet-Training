@@ -1,0 +1,6 @@
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepModelsLibrary\bin\Debug\EmpDepModelsLibrary.dll
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepModelsLibrary\bin\Debug\EmpDepModelsLibrary.pdb
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepModelsLibrary\obj\Debug\EmpDepModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepModelsLibrary\obj\Debug\EmpDepModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepModelsLibrary\obj\Debug\EmpDepModelsLibrary.dll
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepModelsLibrary\obj\Debug\EmpDepModelsLibrary.pdb

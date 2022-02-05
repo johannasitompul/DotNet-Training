@@ -1,0 +1,2 @@
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEF\obj\Debug\EmpDepDALEF.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEF\obj\Debug\EmpDepDALEF.csproj.CoreCompileInputs.cache

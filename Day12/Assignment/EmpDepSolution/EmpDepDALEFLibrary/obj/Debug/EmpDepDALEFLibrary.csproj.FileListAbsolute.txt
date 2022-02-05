@@ -1,0 +1,14 @@
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EmpDepDALEFLibrary.dll.config
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EmpDepDALEFLibrary.dll
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EmpDepDALEFLibrary.pdb
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EmpDepModelsLibrary.dll
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EntityFramework.dll
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EmpDepModelsLibrary.pdb
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EntityFramework.xml
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\obj\Debug\EmpDepDALEFLibrary.csproj.AssemblyReference.cache
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\obj\Debug\EmpDepDALEFLibrary.csproj.CoreCompileInputs.cache
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\obj\Debug\EmpDepDALEFLibrary.csproj.CopyComplete
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\obj\Debug\EmpDepDALEFLibrary.dll
+C:\Users\johan\source\repos\EmpDepSolution\EmpDepDALEFLibrary\obj\Debug\EmpDepDALEFLibrary.pdb
