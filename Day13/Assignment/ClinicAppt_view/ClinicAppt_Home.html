@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CACA | About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Clinic Appointment Console Application</h1>
+  <p>SIMPLICITY AT ITS BEST.</p> 
+</div>
+  
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-sm-4">
+      <h3>Class Inheritance</h3>
+      <p>
+          Inheritance, together with encapsulation and polymorphism, is one of the three primary characteristics of object-oriented programming. 
+          Inheritance enables you to create new classes that reuse, extend, and modify the behavior defined in other classes.
+      </p>
+      <p>
+          In this project, inheritence is used when building the Doctors and Patients classes. 
+          A base class named Users is created to contain the shared (to be inherited) methods.
+      </p>
+      <a href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance" class="btn btn-outline-secondary">Learn more</a>
+    </div>
+
+    <div class="col-sm-4">
+      <h3>Override Modifier</h3>
+      <p>
+        The override modifier is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event. 
+        An override method provides a new implementation of the method inherited from a base class. 
+        The method that is overridden by an override declaration is known as the overridden base method. 
+        An override method must have the same signature as the overridden base method.
+      </p>
+      <p>
+          In this project, the override modifier is used mainly to override the tostring() method.
+      </p>
+      <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override" class="btn btn-outline-secondary">Learn more</a>
+    </div>
+
+    <div class="col-sm-4">
+      <h3>Delegates</h3>        
+      <p>
+        A delegate is a type that represents references to methods with a particular parameter list and return type. 
+        When you instantiate a delegate, you can associate its instance with any method with a compatible signature and return type. 
+        You can invoke (or call) the method through the delegate instance.
+      </p>
+      <p>In this project, delegates are implemented in terms of lambda expressions and can be found throughout 
+          the different methods that are created.
+      </p>
+      <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/" class="btn btn-outline-secondary">Learn more</a>
+    </div>
+  </div>
+
+    <div class="row mt-5">
+
+        <div class="col-sm-12 text-center">
+            <h3>Demo Video</h3>        
+            <video width="600" controls>
+                <source src="media/ClinicApptConsoleApp_Demo.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+    </div>
+
+    <div class="mt-5 text-center">
+        <h3>Code Snapshots</h3>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+        
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img height="400" src="media/doctor.png" alt="Doctor Class">
+                <div class="carousel-caption">
+                    <h3>Doctor's Class</h3>
+                    <p>Inheriting from base class User.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img height="400" src="media/patient.png" alt="Patient Class">
+                <div class="carousel-caption">
+                    <h3>Patient's Class</h3>
+                    <p>Inheriting from base class User.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img height="400" src="media/appt_tostring.png" alt="tostring()">
+                <div class="carousel-caption">
+                    <h3>Method Overriding</h3>
+                    <p>Overriding tostring() method to make displaying appointment details easier.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img height="400" src="media/lambda.png" alt="Lambda Expression">
+                <div class="carousel-caption">
+                    <h3>Lambda Expression</h3>
+                    <p>Using lambda expression for a more concise code.</p>
+                </div>
+            </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </a>
+        
+        </div>
+    </div>
+
+<hr class="mt-5">
+
+<footer>
+    <div class="m-3 text-center">
+        <div class="spinner-border spinner-border-sm text-success"></div>
+        <div class="spinner-grow spinner-grow-sm text-info"></div>
+        <div class="spinner-border spinner-border-sm text-warning"></div>
+        <div class="spinner-grow spinner-grow-sm text-danger"></div>
+        <p class="footer-text">Johanna Sitompul<br>
+            Collabera - NCS - .NET Training</p>
+    </div>
+</footer>
+
+</body>
+</html>
