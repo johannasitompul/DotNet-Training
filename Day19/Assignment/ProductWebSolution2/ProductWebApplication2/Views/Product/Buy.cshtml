@@ -1,0 +1,44 @@
+﻿@model ProductWebApplication2.Models.Product
+
+@{
+    ViewData["Title"] = "Buy";
+}
+
+<h1>Buy</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Buy">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Qty" class="control-label">How many would you like to buy?</label>
+                <input asp-for="Qty" class="form-control" />
+                <span asp-validation-for="Qty" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Buy" class="btn btn-primary" onclick="simpleAlert()" />
+            </div>
+
+            <script>
+                function simpleAlert() {
+                    var total = document.getElementById("Qty").value * @Html.Raw(Model.Price);
+                    var text = "Purchase successfult! \nYour total is $" + total.toString();
+                    alert(text);
+
+                }
+            </script>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

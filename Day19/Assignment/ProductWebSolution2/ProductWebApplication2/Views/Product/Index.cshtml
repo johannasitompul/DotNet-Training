@@ -1,0 +1,110 @@
+﻿@model IEnumerable<ProductWebApplication2.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@foreach (var item in Model)
+{
+    <div class="card m-2" style="width:300px">
+        <img class="card-img-top" src="/Images/@Url.Content(item.Pic)" alt="Card image" style="width:100%">
+        <div class="card-body d-flex flex-column">
+            <h4 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h4>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.Desc)</p>
+
+            <div class="row">
+                <b class="col">Category</b>
+                <p class="col">@Html.DisplayFor(modelItem => item.Category)</p>
+            </div>
+
+            <div class="row">
+                <b class="col">Price</b>
+                <p class="col">@Html.DisplayFor(modelItem => item.Price)</p>
+            </div>
+
+            <div class="row">
+                <b class="col">Quantity</b>
+                <p class="col">@Html.DisplayFor(modelItem => item.Qty)</p>
+            </div>
+
+            <div class="row">
+                <p class="col">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </p>
+            </div>
+
+            <a href="@Url.Action("Buy", "Product", new { id = item.Id })" class="btn btn-warning mt-auto">Buy</a>
+        </div>
+    </div>
+}
+
+@*<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Qty)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pic)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Desc)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Qty)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Pic)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Desc)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id }) |
+                        @Html.ActionLink("Buy", "Buy", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@
